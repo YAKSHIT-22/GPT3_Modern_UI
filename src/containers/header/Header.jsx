@@ -5,7 +5,10 @@ import ai from '../../assets/ai.png';
 const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="home">
-       <div className="gpt3__header-content">
+       <div className="gpt3__header-content" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="300"
+       
+     data-aos-offset="500"
+     data-aos-duration="5000">
       <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
       <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
@@ -20,7 +23,11 @@ const Header = () => {
       </div>
     </div>
 
-    <div className="gpt3__header-image">
+    <div className="gpt3__header-image" data-aos="zoom-in"
+     data-aos-offset="500"
+     data-aos-duration="5000"
+     data-aos-delay="300"
+     data-aos-easing="ease-in-sine">
       <img src={ai}/>
     </div>
     </div>

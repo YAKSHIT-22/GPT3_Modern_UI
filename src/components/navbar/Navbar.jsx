@@ -31,11 +31,21 @@ const Navbar = () => {
         <div className="gpt3__navbar-link_logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="gpt3__navbar-links_container" data-aos="fade-up"
+       data-aos-anchor-placement="top-bottom"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-delay="300"
+     data-aos-duration="5000">
           <Menu />
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="gpt3__navbar-sign" data-aos="fade-down"
+       data-aos-anchor-placement="top-bottom"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-delay="300"
+     data-aos-duration="5000">
         <p>Sign in</p>
         <button type="button">Get Started</button>
       </div>
